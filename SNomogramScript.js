@@ -11,7 +11,7 @@ let linex1= 0, liney1=(img.height/2),linex2 = img.width, liney2 = (img.height/2)
 function setup(){
     let canvas = createCanvas(img.width, img.height);
     canvas.parent('NomogramContainer');
-    frameRate(30);
+    frameRate(60);
     strokeWeight(2);
 }
 
